@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2afef;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h2 {
+    color: white;
+    width: 250px;
+    
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 25px;
+    
+  }
+  
+  #taskInput {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 8px;
+    border: 2px solid black;
+  }
+  
+  #addTaskBtn {
+    padding: 8px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .taskText {
+    flex-grow: 1;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .taskDone {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .deleteBtn {
+    padding: 6px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #e53935;
+    border: none;
+    border-radius: 5px;
+  }
+  #kj{
+    width: 300px;
+    background-color: #ca99f3;
+    border: 3px solid black;
+    border-radius: 10px;
+   /* box-shadow:  5px 10px #ca99f3;*/
+  }
+  h2 {
+    color:#33186b ;
+    width: 250px;
+    background-color: #7360df;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 25px;
+    
+  }
+  #kj:hover{
+    box-shadow:  10px 15px black;
+    transition-duration: 1000ms;
+    transform: translate3d();
+    
+  }
+  #kj:active{
+    box-shadow:  10px 15px red;
+    transition-duration: 1000ms;
+  }
+  div:hover h2{
+    background-color: red;
+    transition-duration: 2000ms;
+  }
+  
